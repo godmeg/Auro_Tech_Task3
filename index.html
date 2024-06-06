@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left"> Robert's portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#Contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>  
+        <section class="firstsection" id="home" >
+            <div class="leftsection">
+                Hi,My name is <span class="name">Robert</span>
+                <div>And I am Passoniate</div>
+                <span id="element"></span>
+            </div>
+            <div class="rightsection">
+                <img src="dd.png" alt="">
+            </div>
+        </section>
+        <div class="line" id="about"></div>
+        <section class="about-me" >
+            <h2>About Me</h2>
+            <p><strong>SCHOOLING:</strong> I completed my schooling at Infant Jesus Convent High School where I developed a strong foundation in mathematics and science.</p>
+            <p><strong>COLLEGE:</strong> I am currently studying at K.S. Rangasamy College of Technology, furthering my knowledge in advanced computing and technology.</p>
+            <p><strong>INTERNSHIP:</strong> Completed an 8-week Salesforce Developer Internship on Trailhead, gaining hands-on experience with the Salesforce platform.</p>
+            <div class="skills">
+                <h3>Skills</h3>
+                <ul>
+                    <li>Web Development</li>
+                    <li>Data Analysis</li>
+                    <li>Video Editing</li>
+                </ul>
+            </div>
+        </section>
+        <div class="line2" id="projects"></div>
+        <section class="projects" id="projects">
+            <h2>Projects</h2>
+            <div class="project">
+                <h3>Web Development Portfolio</h3>
+                <p>A showcase of my web development projects.</p>
+                <a href="#">View Project</a>
+            </div>
+            <div class="project">
+                <h3>Data Analysis with Python</h3>
+                <p>An analysis project using Python programming language.</p>
+                <a href="#">View Project</a>
+            </div>
+            <div class="project">
+                <h3>Video Editing Showcase</h3>
+                <p>A collection of video editing projects.</p>
+                <a href="#">View Project</a>
+            </div>
+        </section>
+
+    </main>
+    <footer id="Contact">
+        <ul>
+            <li><a href="https://www.instagram.com" target="_blank"><img src="insta.png" alt="Instagram">Instagram</a></li>
+            <li><a href="https://www.linkedin.com" target="_blank"><img src="link.png" alt="LinkedIn">LinkedIn</a></li>
+            <li><a href="https://www.facebook.com" target="_blank"><img src="face.png" alt="Facebook">Facebook</a></li>
+            <li><a href="https://www.twitter.com" target="_blank"><img src="x.png" alt="Twitter">Twitter</a></li>
+        </ul>
+        <p>&copy; 2024 Robert's Portfolio. All rights reserved.</p>
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['Web Developer', 'Data Analyst','Video Editor'],
+      typeSpeed: 50,
+    });
+</script>
+</body>
+</html>
